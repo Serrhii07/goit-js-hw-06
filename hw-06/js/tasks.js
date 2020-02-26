@@ -15,9 +15,7 @@ console.log(getUserNames(users));
 
 const getUsersWithEyeColor = function(users, color) {
   return users.filter(function(user) {
-    if (user.eyeColor === color) {
-      return user;
-    }
+    return user.eyeColor === color;
   });
 };
 
